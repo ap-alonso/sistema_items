@@ -31,10 +31,9 @@ function Read() {
                 <td>{art.name}</td>
                 <td>{art.description}</td>
                 <td>
-                  <Boton texto="Borrar" manejarClic="Delete" id={art.id} />
+                  <Boton texto="Borrar" id={art.id} />
                   <Boton
                     texto="Modificar"
-                    manejarClic="Modificar"
                     id={art.id}
                   />
                 </td>
